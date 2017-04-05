@@ -1,0 +1,21 @@
+{
+  "name": "grid-overlay",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jayson Buquia <buquia.jace@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/qtgye/grid-overlay",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}

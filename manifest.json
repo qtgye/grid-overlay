@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Grid Overlay",
+  "description": "Grid tool for your Front End Development",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/icon/grid-overlay-icon.png",
+    "default_popup": ""
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+
+  "content_scripts" : [
+    {
+      "matches" : ["http://*/*"],
+      "css": [],
+      "js": ["dist/scripts/content.js"]
+  	}
+  ],
+
+  "background": {
+    "scripts": ["dist/scripts/background.js"],
+    "persistent": false
+  },
+
+  "options_page": "options.html"
+}
